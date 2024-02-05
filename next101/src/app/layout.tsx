@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <h1 className="text-2xl">Hello, </h1>
+        {children}</body>
     </html>
   );
 }
+
+// this is the main layout for the app, but you can create sub layout for other pages.

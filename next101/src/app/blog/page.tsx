@@ -1,9 +1,10 @@
 import React from 'react'
 
-const BlogPage = () => {
+const BlogPage = ({children}: {children: React.ReactNode}) => {
   return (
     <div>
       My Daily Blog
+      {children}
     </div>
   )
 }
