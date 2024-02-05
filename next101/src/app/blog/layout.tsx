@@ -10,3 +10,5 @@ const BlogLayout = ({children}: {children: React.ReactNode}) => {
 }
 
 export default BlogLayout
+
+// you can set layout on any pages basically. by the outter the layout is, the more pages it can cover.
